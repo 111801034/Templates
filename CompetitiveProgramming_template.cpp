@@ -6,6 +6,8 @@ using namespace std;
 
 int main()
 {
+  ios_base::sync_with_stdio(false); // Fast I/O method
+  cin.tie(NULL); // Fast I/O method
   int t = 1;
   cin >> t;
   while(t--) {
